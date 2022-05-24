@@ -375,3 +375,384 @@ footer img {
 .contacto a:hover {
     background-color: #FD9D00;
 }
+
+@media (min-width: 320px) and (max-width: 600px) {
+    nav .marcas img {
+        width: 90px;
+        height: 30px;
+    }
+    .logo {
+        width: 150px;
+        margin: 0 10px;
+    }
+
+    /* SOBRE NOSOTROS */
+    .somos {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .somos h1 {
+        font-size: 1.2em;
+        margin-left: 10px;
+        width: 92%;
+    }
+
+    .somos p {
+        margin: 10px 5px;
+        font-size: .8em;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .somos ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 98%;
+        margin: 10px;
+    }
+
+    .somos ul li {
+        list-style: none;
+        width: 98%;
+        margin: 0;
+        font-size: .8em;
+    }
+
+    /* POLITICA DE PRIVACIDAD */
+    .politica {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .politica h1 {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-left: 10px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #000;
+        width: 92%;
+    }
+
+    .politica p {
+        margin: 10px 5px;
+        font-size: .8em;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .politica h5 {
+        margin: 10px 5px;
+        font-size: .8em;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .politica a {
+        text-decoration: none;
+    }
+
+    /* TERMINOS Y CONDICIONES */
+    .terminos {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .terminos h1 {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-left: 10px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #000;
+        width: 92%;
+    }
+
+    .terminos p {
+        margin: 10px 5px;
+        font-size: .8em;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .terminos h5 {
+        margin: 10px 5px;
+        font-size: .8em;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .terminos ol {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 98%;
+        margin: 10px;
+    }
+
+    .terminos ol li {
+        width: 98%;
+        margin: 0;
+        font-size: .8em;
+    }
+
+    /* COMO COMPRAR  */
+    .compra {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .compra h1 {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-left: 10px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #000;
+        width: 92%;
+    }
+
+    .compra p {
+        margin: 10px 5px;
+        font-size: .8em;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .compra img {
+        display: flex;
+        margin: auto;
+        width: 250px;
+    }
+
+    .compra ol {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+        margin: 15px;
+    }
+
+    .compra ol li {
+        width: 98%;
+        margin: 0;
+        font-size: .8em;
+    }
+
+    .compra ol p {
+        width: 98%;
+        margin: 3px;
+        font-size: .8em;
+    }
+
+    .compra__under {
+        text-decoration: underline;
+    }
+
+    /* MEDIOS DE PAGO */
+    .pago {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .pago h1 {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-left: 10px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #000;
+        width: 92%;
+    }
+
+    .pago p {
+        margin: 10px 5px;
+        font-size: .8em;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .pago__under {
+        text-decoration: underline;
+    }
+
+    /* ENVIO  */
+    .envio {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .envio h1 {
+        font-size: 1.2em;
+        font-weight: 500;
+        margin-left: 10px;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #000;
+        width: 92%;
+    }
+
+    .envio p {
+        margin: 10px 5px;
+        font-size: .8em;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* CONTACTANOS */
+    .contactanos {
+        background-color: #fff;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactanos h1 {
+        color: #000;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    .contactanos p {
+        color: #000;
+        display: flex;
+        justify-content: center;
+        font-size: .9em;
+        margin-bottom: 10px;
+    }
+
+    .contactanos form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contactanos form input {
+        width: 250px;
+        margin: 15px;
+        height: 30px;
+        padding: 5px;
+        background: transparent;
+        border: none;
+        border-bottom: 3px solid #000;
+        border-radius: 5px;
+        color: #000;
+    }
+
+    .contactanos form input::placeholder {
+        font-size: .7em;
+        color: #000;
+    }
+
+    .contactanos form textarea {
+        border-radius: 5px;
+        width: 290px;
+        height: 170px;
+        background: transparent;
+        padding: 5px;
+        color: #000;
+        resize: none;
+        border: 1px solid #000;
+    }
+
+    .contactanos form textarea::placeholder {
+        color: #000;
+        font-size: .8em;
+    }
+
+    .contactanos button {
+        width: 150px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        background-color: #000;
+        color: #fff;
+        font-size: .9em;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        padding: 40px;
+    }
+    
+    footer li {
+        list-style: none;
+        color: #fff;
+        line-height: 1.5;
+        font-size: .8em;
+    }
+    
+    footer a {
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        margin: 10px;
+    }
+    
+    footer a:hover {
+        color: #F7FFDF;
+    }
+    
+    footer h5 {
+        color: #fff;
+        font-size: 1.2em;
+        margin: 10px;
+    }
+    
+    footer img {
+        display: flex;
+        align-self: center;
+        width: 200px;
+        margin: 20px;
+    }
+    
+    .contacto a {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2em;
+        border-radius: 5px;
+        transition: all .2s;
+    }
+    
+    .contacto a:hover {
+        background-color: #FD9D00;
+    }
+}
