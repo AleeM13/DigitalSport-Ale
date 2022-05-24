@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+body {
+    font-family: 'Play', sans-serif;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.marcas {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav .marcas img {
+    display: flex;
+    align-items: center;
+    width: 90px;
+    height: 40px;
+    padding: 4px;
+}
+
+.s78 {
+    border-top: 2px solid #D27B00;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.fluid {
+    border-top: 2px solid #00ACDD;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.dionysos {
+    border-top: 2px solid #B31DBF;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    background-color: #B730CA;
+}
+.blast {
+    border-top: 2px solid #000000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0 20px;
+}
+
+/* SOBRE NOSOTROS */
+.somos {
+    height: 100%;
+}
+
+.somos h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+    width: 98%;
+}
+
+.somos p {
+    width: 70em;
+    margin: 15px auto;
+    font-size: .9em;
+    display: flex;
+    justify-content: center;
+}
+
+.somos ul {
+    font-size: .9em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70em;
+    margin: 15px auto;
+}
+
+.somos ul li {
+    list-style: none;
+    width: 70em;
+    margin: 15px auto;
+}
+
+/* POLITICA DE PRIVACIDAD */
+.politica {
+    height: 100%;
+}
+
+.politica h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+    width: 98%;
+}
+
+.politica p {
+    width: 70em;
+    margin: 15px auto;
+    font-size: .9em;
+}
+
+.politica h5 {
+    margin: 15px auto;
+    width: 76em;
+}
+
+.politica a {
+    text-decoration: none;
+}
+
+/* TERMINOS Y CONDICIONES */
+.terminos {
+    height: 100%;
+}
+
+.terminos h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+    width: 98%;
+}
+
+.terminos p {
+    width: 70em;
+    margin: 15px auto;
+    font-size: .9em;
+}
+
+.terminos h5 {
+    margin: 15px auto;
+    width: 76em;
+}
+
+.terminos ol {
+    font-size: .9em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70em;
+    margin: 3px auto;
+}
+
+.terminos ol li {
+    width: 75em;
+    margin: 7px auto;
+}
+
+/* COMO COMPRAR  */
+.compra {
+    height: 100%;
+}
+.compra h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+    width: 98%;
+}
+
+.compra p {
+    width: 70em;
+    margin: 15px auto;
+    font-size: .9em;
+}
+
+.compra img {
+    display: flex;
+    margin: auto;
+}
+
+.compra ol {
+    font-size: .9em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70em;
+    margin: 3px auto;
+}
+
+.compra ol li {
+    width: 70em;
+    margin: 7px auto;
+}
+
+.compra ol p {
+    width: 100%;
+    margin: 15px auto;
+    font-size: .9em;
+}
+
+.compra__under {
+    text-decoration: underline;
+}
+
+/* MEDIOS DE PAGO */
+.pago {
+    height: 100vh;
+}
+.pago h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+    width: 98%;
+}
+
+.pago p {
+    width: 70em;
+    margin: 15px auto;
+    font-size: .9em;
+}
+
+.pago__under {
+    text-decoration: underline;
+}
+
+/* ENVIO  */
+.envio {
+    height: 100vh;
+}
+.envio h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+    margin-left: 10px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #000;
+    width: 98%;
+}
+
+.envio p {
+    width: 70em;
+    margin: 15px auto;
+    font-size: .9em;
+}
+
+/* CONTACTANOS */
+.contactanos {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactanos h1 {
+    color: #000;
+    font-size: 2.3em;
+    margin-bottom: 15px;
+}
+
+.contactanos p {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.contactanos form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.contactanos form input {
+    width: 550px;
+    margin: 15px;
+    height: 35px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #000;
+    border-radius: 5px;
+    color: #000;
+}
+
+.contactanos form input::placeholder {
+    font-size: .9em;
+    color: #000;
+}
+
+.contactanos form textarea {
+    border-radius: 5px;
+    width: 450px;
+    height: 180px;
+    background: transparent;
+    padding: 5px;
+    color: #000;
+    resize: none;
+    border: 1px solid #000;
+}
+
+.contactanos form textarea::placeholder {
+    color: #000;
+}
+
+.contactanos button {
+    width: 210px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.1em;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 50px;
+}
+
+footer li {
+    list-style: none;
+    color: #fff;
+    line-height: 1.5;
+    font-size: .9em;
+}
+
+footer a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #F7FFDF;
+}
+
+footer h5 {
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+footer img {
+    display: flex;
+    align-self: center;
+    width: 250px;
+}
+
+.contacto a {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: all .2s;
+}
+
+.contacto a:hover {
+    background-color: #FD9D00;
+}
