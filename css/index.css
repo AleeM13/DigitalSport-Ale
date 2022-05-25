@@ -272,6 +272,8 @@ footer img {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        height: 100em;
+        margin-bottom: 20px;
     }
     
     h2 {
