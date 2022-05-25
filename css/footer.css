@@ -403,7 +403,7 @@ footer img {
     }
 
     .somos p {
-        margin: 10px 5px;
+        margin: 5px 5px;
         font-size: .8em;
         width: 98%;
         display: flex;
@@ -416,7 +416,7 @@ footer img {
         flex-direction: column;
         justify-content: center;
         width: 98%;
-        margin: 10px;
+        margin: 5px;
     }
 
     .somos ul li {
@@ -506,8 +506,8 @@ footer img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 98%;
-        margin: 10px;
+        width: 30%;
+        margin: 15px;
     }
 
     .terminos ol li {
@@ -552,13 +552,13 @@ footer img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 95%;
-        margin: 15px;
+        width: 94%;
+        margin: 18px;
     }
 
     .compra ol li {
         width: 98%;
-        margin: 0;
+        margin-top: 10px;
         font-size: .8em;
     }
 
